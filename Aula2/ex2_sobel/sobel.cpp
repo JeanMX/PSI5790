@@ -11,8 +11,8 @@ int main()
     Mat_<float> a = imread("circulo.png",0);
     Mat_<float> sx,sy,ox,oy;
 
-    Sobel(a,sx,-1,1,0,3); 
-    Sobel(a,sy,-1,0,1,3); 
+    Sobel(a,sx,-1,1,0,3);  //Sobel
+    Sobel(a,sy,-1,0,1,3);  //Sobel
     
     ox = sx/4.0+128; 
     imwrite("ox.png",ox);
@@ -22,11 +22,11 @@ int main()
     
     Mat_<float> tx;
     Mat_<float> ty;
-    pow(sx, 2, tx);
-    pow(sy,2,ty);
+    pow(sx, 2, tx); //ver_esq
+    pow(sy,2,ty);   //hor_sup
 
     Mat_<float> ver_todo;
-    pow(tx, 0.5, ver_todo);
+    pow(tx, 0.5, ver_todo); //
     imwrite("ver_todo.png", ver_todo);
 
     Mat_<float> hor_todo;

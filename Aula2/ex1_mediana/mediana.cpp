@@ -6,7 +6,8 @@
 
 #include <cekeikon.h>
 
-int main() {
+int main() 
+{
     Mat_<GRY> in_1, in_2;
     Mat_<GRY> dst_1, dst_2; 
     le(in_1,"fever-1.pgm");
