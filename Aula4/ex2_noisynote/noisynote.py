@@ -1,9 +1,15 @@
+#############################################
+# Exercício 1 - Aula 4 - PSI5790           #
+# Nome: Jean Carlos Mello Xavier Faria     #
+# Nusp: 11259628                           #
+#############################################
+
 import numpy as np
 from sklearn import tree
 from sklearn import neighbors as nb
 
 def le(nomearq):
-    with open(nomearq,"r") as f:
+    with open(nomearq,"r") as f: 
         linhas=f.readlines()
     linha0=linhas[0].split()
     nl=int(linha0[0]); nc=int(linha0[1])

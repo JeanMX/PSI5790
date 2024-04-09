@@ -1,12 +1,18 @@
+/*******************************************/
+/* Exercício 1 - Aula 4 - PSI5790          */
+/* Nome: Jean Carlos Mello Xavier Faria    */
+/* Nusp: 11259628                          */
+/*******************************************/
 
 #include <cekeikon.h>
 
-int main() {
+int main() 
+{
     Mat_<FLT> src = (Mat_<FLT>(4,2) <<
         140,44,   //Superior esquerda
         322,34,   //Superior Direita
         354,296,  //Inferior direita
-        108,296); //Inferior esquerda  - ref
+        108,296); //Inferior esquerda 
     Mat_<FLT> dst = (Mat_<FLT>(4,2) <<
         108,34,  //Superior esquerda
         354,34,  
