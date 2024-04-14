@@ -1,5 +1,5 @@
 #############################################
-# Exercício 1 - Aula 4 - PSI5790           #
+# Exercício 2 - Aula 4 - PSI5790           #
 # Nome: Jean Carlos Mello Xavier Faria     #
 # Nusp: 11259628                           #
 #############################################
