@@ -35,7 +35,6 @@ int main()
                     w++;
                 }
             }
-    '   '
             saidas(k)=ay(l,c);
             k++;
         }
